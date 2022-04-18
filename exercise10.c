@@ -1,19 +1,18 @@
-//documentation section 
-/* Exercise 10 - Update Operations */
-
-//pre-processor section 
 #include<stdio.h>
 
-//global variable section 
+int main()
+{
+    int LA[3][2] = {{1,2}, {3,4}, {5,6}};
 
+    LA[2][1] = 50; 
 
-//main function section 
-int main(){
-    //write here your program
-
-
-    return 0;
+    printf("Output: \n");
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            printf("%d ", LA[i][j]); 
+        }
+        printf("\n"); 
+    }
 }
-
-
-//user-defined section 
