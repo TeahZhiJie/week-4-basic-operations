@@ -1,19 +1,14 @@
-//documentation section 
-/* Exercise 4 - Insertion Operations */
-
-//pre-processor section 
 #include<stdio.h>
 
-//global variable section 
+int main()
+{
+    char LA[5] = {'a', 'e', 'i', 'o'}; 
 
+    LA[4] = 'u'; 
 
-//main function section 
-int main(){
-    //write here your program
-
-
-    return 0;
+    printf("Output: \n"); 
+    for (int i = 0; i < 5; i++)
+    {
+        printf("LA[%d] = %c\n", i, LA[i]); 
+    }
 }
-
-
-//user-defined section 
