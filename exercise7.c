@@ -1,19 +1,16 @@
-//documentation section 
-/* Exercise 7 - Search Operations */
-
-//pre-processor section 
 #include<stdio.h>
 
-//global variable section 
+int main()
+{
+    char LA[] = {'a', 'e', 'i', 'o', 'u'}; 
 
-
-//main function section 
-int main(){
-    //write here your program
-
-
-    return 0;
+    for (int i = 0; i < 5; i++)
+    {
+        if (LA[i] == 'e')
+        {
+            printf("Output: \n");
+            printf("Found character e at position %d", i+1); 
+            break; 
+        }
+    }
 }
-
-
-//user-defined section 
