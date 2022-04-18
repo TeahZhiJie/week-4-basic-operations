@@ -1,19 +1,19 @@
-//documentation section 
-/* Exercise 3 - Insertion Operations */
-
-//pre-processor section 
 #include<stdio.h>
 
-//global variable section 
+int main()
+{
+    float LA[6] = {1.5, 1.2, 1.8, 1.6, 1.1};
 
+    for (int i = 5; i > 3; i--)
+    {
+        LA[i] = LA[i-1]; 
+    }
 
-//main function section 
-int main(){
-    //write here your program
+    LA[3] = 1.4; 
 
-
-    return 0;
+    printf("Output: \n"); 
+    for (int j = 0; j < 6; j++)
+    {
+        printf("LA[%d] = %.1f\n", j, LA[j]); 
+    }
 }
-
-
-//user-defined section 
