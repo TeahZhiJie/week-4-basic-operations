@@ -1,19 +1,14 @@
-//documentation section 
-/* Exercise 1 - Traverse Operations */
-
-//pre-processor section 
 #include<stdio.h>
 
-//global variable section 
+int main()
+{
+    int LA[] = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+
+    printf("Output: \n");
+    for (int i = 0; i < 10; i++)
+    {
+        printf("LA[%d] = %d\n", i, LA[i]); 
+    }
 
 
-//main function section 
-int main(){
-    //write here your program
-
-
-    return 0;
 }
-
-
-//user-defined section 
